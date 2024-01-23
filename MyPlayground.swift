@@ -114,5 +114,9 @@ func printNameAndReturn(name: String) -> String{ //String is return type
     return name
 }
 
+// how to call functions
+printHello()
+printName(name: "Madhusha")
+printNameAndReturn(name: "Madhusha")
 
 
