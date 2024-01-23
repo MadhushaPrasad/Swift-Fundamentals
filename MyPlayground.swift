@@ -97,4 +97,22 @@ var person2: Person1 = Person1()
 
 var button : UIButton = UIButton()
 
+// Functions and Parameters
+
+// function without parameters
+func printHello(){
+    print("Hello")
+}
+
+// function with parameters
+func printName(name: String){
+    print(name)
+}
+
+// function with parameters and return type
+func printNameAndReturn(name: String) -> String{ //String is return type
+    return name
+}
+
+
 
