@@ -10,6 +10,9 @@ Welcome to the Swift Fundamentals repository! This repository is designed to pro
 4. [Loops](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/loops.swift)
 5. [Functions](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Functions.swift)
 6. [Classes & Structs](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Classes%26Structs.swift)
+7. [Conditional Statements](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Conditionals.swift)
+8. [Guard Statement](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/GuardStatement.swift)
+9. [Enums & Switchs](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Enums%26Switch.swift)
 
 ## Variables
 
@@ -87,6 +90,65 @@ class Person {
 struct Point {
     var x: Double
     var y: Double
+}
+```
+
+## Conditional Statements
+
+Conditional statements are used to make decisions in your code. Explore how to use if statements, else statements, and else-if statements to control the flow of your Swift program.
+
+```swift
+// Example of using if statement
+let temperature = 25
+if temperature > 30 {
+    print("It's a hot day!")
+} else if temperature < 10 {
+    print("It's a cold day!")
+} else {
+    print("The weather is moderate.")
+}
+```
+
+## Guard Statement
+
+The guard statement is a powerful tool for enhancing code readability and ensuring that certain conditions are met. Learn how to use guard statements to gracefully handle scenarios where conditions are not satisfied.
+
+```swift
+// Example of using guard statement
+func processOrder(order: String?) {
+    guard let unwrappedOrder = order else {
+        print("Invalid order.")
+        return
+    }
+    // Process the order
+    print("Processing order: \(unwrappedOrder)")
+}
+```
+
+## Enums & Switch
+
+Enums (enumerations) and switch statements are essential for handling different cases in your Swift code. Explore how to define enums and use switch statements to handle various scenarios.
+
+```swift
+// Example of using enums and switch
+enum Direction {
+    case north
+    case south
+    case east
+    case west
+}
+
+func getDirectionDescription(direction: Direction) -> String {
+    switch direction {
+    case .north:
+        return "Facing north"
+    case .south:
+        return "Facing south"
+    case .east:
+        return "Facing east"
+    case .west:
+        return "Facing west"
+    }
 }
 ```
 
