@@ -4,12 +4,12 @@ Welcome to the Swift Fundamentals repository! This repository is designed to pro
 
 ## Table of Contents
 
-1. [Variables](#variables)
-2. [Types of Variables](#types-of-variables)
-3. [Optionals & Unwrap](#optionals--unwrap)
-4. [Loops](#loops)
-5. [Functions](#functions)
-6. [Classes & Structs](#classes--structs)
+1. [Variables](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Variables.swift)
+2. [Types of Variables](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/TypesofVariables.swift)
+3. [Optionals & Unwrap](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Optionals%26Unwrap.swift)
+4. [Loops](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/loops.swift)
+5. [Functions](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Functions.swift)
+6. [Classes & Structs](https://github.com/MadhushaPrasad/Swift-Fundamentals/blob/main/Classes%26Structs.swift)
 
 ## Variables
 
